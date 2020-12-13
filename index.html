@@ -6,7 +6,7 @@
     <title>Студия</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 
@@ -22,7 +22,7 @@
      <ul class="list-menu">
        <li class="item-menu"><a class="link-menu link-studia" href="#contacts">Студия</a></li> 
        <li class="item-menu"><a class="link-menu" href="portfolio.html">Портфолио</a></li>
-       <li class="item-menu"><a class="link-menu" href="index.html">Контакты</a></li> 
+       <li class="item-menu"><a class="link-menu" href="#footer">Контакты</a></li> 
      </ul>
     </div></nav>
      <ul class="list-contacts">
@@ -100,7 +100,7 @@
         </span>
        </label>
        <span class="acceptance-conditions" >Соглашаюсь с рассылкой и принимаю 
-        <a class="link-contract" href="./.">
+        <a class="link-contract" href="./." target="_blank">
           Условия договора
         </a>
       </span>
@@ -393,9 +393,9 @@
   </section>
   
 
-  <footer class="footer"> 
+  <footer class="footer" id="footer"> 
    <div class="container footer-container">
-    <div class="footer-section">
+    <section class="footer-section footer-contacts">
     <a href="index.html">
       <span class="logo-footer">
         <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
@@ -414,8 +414,8 @@
       </li>
     </ul> 
     </address>
-    </div>
-    <div class="footer-section footer-section-link">
+    </section>
+    <section class="footer-section footer-section-link">
       <h3 class="footer-heading-social" >присоединяйтесь</h3>
       <ul class="list-team-link">
         <li class="item-team-link">
@@ -447,8 +447,8 @@
           </a>
         </li>
       </ul>
-    </div>
-    <div class="subscription">
+    </section>
+    <section class="subscription">
       <h3 class="footer-heading-social">Подпишитесь на рассылку</h3>
       <form action="./." method="GET" class="subscription__form">
         <input class="subscription__form__field" type="email" name="email" autocomplete="email" placeholder="E-mail" required >
@@ -459,7 +459,7 @@
           </svg>
         </button>
       </form>
-    </div>
+    </section>
    </div>
   </footer>
 
